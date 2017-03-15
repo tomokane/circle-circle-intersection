@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func testCircleIntersection(t *testing.T) {
+func TestCircleIntersection(t *testing.T) {
 	c1 := Circle{X: -3, Y: 0, Radius: 6}
 	c2 := Circle{X: 3, Y: 0, Radius: 6}
 	area := circleIntersection(c1, c2)
